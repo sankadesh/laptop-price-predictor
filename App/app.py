@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # load pipeline
-model = pickle.load(open("pipeline.pkl", "rb"))
+model = pickle.load(open("App/pipeline.pkl", "rb"))
 
 st.title("Laptop Price Predictor")
 
